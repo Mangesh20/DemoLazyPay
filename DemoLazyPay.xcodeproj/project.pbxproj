@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8609750E211C12C200A1FAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609750D211C12C200A1FAFB /* AppDelegate.swift */; };
+		86097510211C12C200A1FAFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609750F211C12C200A1FAFB /* ViewController.swift */; };
+		86097513211C12C200A1FAFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86097511211C12C200A1FAFB /* Main.storyboard */; };
+		86097515211C12C200A1FAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86097514211C12C200A1FAFB /* Assets.xcassets */; };
+		86097518211C12C200A1FAFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86097516211C12C200A1FAFB /* LaunchScreen.storyboard */; };
+		B184EA29A9DF076B452D527E /* Pods_DemoLazyPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECAE058B56203D7C6FC31DB2 /* Pods_DemoLazyPay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BB510D728B6BBC032752B48 /* Pods-DemoLazyPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLazyPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLazyPay/Pods-DemoLazyPay.debug.xcconfig"; sourceTree = "<group>"; };
+		25BA26D2FDC715E905F6D30A /* Pods-DemoLazyPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoLazyPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoLazyPay/Pods-DemoLazyPay.release.xcconfig"; sourceTree = "<group>"; };
+		8609750A211C12C200A1FAFB /* DemoLazyPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLazyPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8609750D211C12C200A1FAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8609750F211C12C200A1FAFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86097512211C12C200A1FAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86097514211C12C200A1FAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86097517211C12C200A1FAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86097519211C12C200A1FAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECAE058B56203D7C6FC31DB2 /* Pods_DemoLazyPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoLazyPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86097507211C12C200A1FAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B184EA29A9DF076B452D527E /* Pods_DemoLazyPay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6914B3E6D383FC72F3929B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECAE058B56203D7C6FC31DB2 /* Pods_DemoLazyPay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86097501211C12C200A1FAFB = {
+			isa = PBXGroup;
+			children = (
+				8609750C211C12C200A1FAFB /* DemoLazyPay */,
+				8609750B211C12C200A1FAFB /* Products */,
+				E6957FB687630EEDB86CCDD1 /* Pods */,
+				6914B3E6D383FC72F3929B0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8609750B211C12C200A1FAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8609750A211C12C200A1FAFB /* DemoLazyPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8609750C211C12C200A1FAFB /* DemoLazyPay */ = {
+			isa = PBXGroup;
+			children = (
+				8609750D211C12C200A1FAFB /* AppDelegate.swift */,
+				8609750F211C12C200A1FAFB /* ViewController.swift */,
+				86097511211C12C200A1FAFB /* Main.storyboard */,
+				86097514211C12C200A1FAFB /* Assets.xcassets */,
+				86097516211C12C200A1FAFB /* LaunchScreen.storyboard */,
+				86097519211C12C200A1FAFB /* Info.plist */,
+			);
+			path = DemoLazyPay;
+			sourceTree = "<group>";
+		};
+		E6957FB687630EEDB86CCDD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BB510D728B6BBC032752B48 /* Pods-DemoLazyPay.debug.xcconfig */,
+				25BA26D2FDC715E905F6D30A /* Pods-DemoLazyPay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86097509211C12C200A1FAFB /* DemoLazyPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8609751C211C12C200A1FAFB /* Build configuration list for PBXNativeTarget "DemoLazyPay" */;
+			buildPhases = (
+				2F0B3553AE14800239959706 /* [CP] Check Pods Manifest.lock */,
+				86097506211C12C200A1FAFB /* Sources */,
+				86097507211C12C200A1FAFB /* Frameworks */,
+				86097508211C12C200A1FAFB /* Resources */,
+				5941252D2A3D6557E929511F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoLazyPay;
+			productName = DemoLazyPay;
+			productReference = 8609750A211C12C200A1FAFB /* DemoLazyPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86097502211C12C200A1FAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mangesh Tekale";
+				TargetAttributes = {
+					86097509211C12C200A1FAFB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 86097505211C12C200A1FAFB /* Build configuration list for PBXProject "DemoLazyPay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86097501211C12C200A1FAFB;
+			productRefGroup = 8609750B211C12C200A1FAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86097509211C12C200A1FAFB /* DemoLazyPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86097508211C12C200A1FAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86097518211C12C200A1FAFB /* LaunchScreen.storyboard in Resources */,
+				86097515211C12C200A1FAFB /* Assets.xcassets in Resources */,
+				86097513211C12C200A1FAFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F0B3553AE14800239959706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoLazyPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5941252D2A3D6557E929511F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DemoLazyPay/Pods-DemoLazyPay-frameworks.sh",
+				"${PODS_ROOT}/CitrusGraphics/Framework/graphics-sdk/CitrusGraphics.framework",
+				"${PODS_ROOT}/CitrusPay/Framework/core-sdk/CitrusPay.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CitrusGraphics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CitrusPay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoLazyPay/Pods-DemoLazyPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86097506211C12C200A1FAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86097510211C12C200A1FAFB /* ViewController.swift in Sources */,
+				8609750E211C12C200A1FAFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86097511211C12C200A1FAFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86097512211C12C200A1FAFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86097516211C12C200A1FAFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86097517211C12C200A1FAFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8609751A211C12C200A1FAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8609751B211C12C200A1FAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8609751D211C12C200A1FAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BB510D728B6BBC032752B48 /* Pods-DemoLazyPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y66WANF77;
+				INFOPLIST_FILE = DemoLazyPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybage.DemoLazyPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8609751E211C12C200A1FAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25BA26D2FDC715E905F6D30A /* Pods-DemoLazyPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y66WANF77;
+				INFOPLIST_FILE = DemoLazyPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybage.DemoLazyPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86097505211C12C200A1FAFB /* Build configuration list for PBXProject "DemoLazyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8609751A211C12C200A1FAFB /* Debug */,
+				8609751B211C12C200A1FAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8609751C211C12C200A1FAFB /* Build configuration list for PBXNativeTarget "DemoLazyPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8609751D211C12C200A1FAFB /* Debug */,
+				8609751E211C12C200A1FAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86097502211C12C200A1FAFB /* Project object */;
+}

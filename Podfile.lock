@@ -1,0 +1,24 @@
+PODS:
+  - CitrusGraphics (2.0.0)
+  - CitrusPay (4.1.7):
+    - CitrusGraphics
+    - JSONModel
+  - JSONModel (1.7.0)
+
+DEPENDENCIES:
+  - CitrusPay
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CitrusGraphics
+    - CitrusPay
+    - JSONModel
+
+SPEC CHECKSUMS:
+  CitrusGraphics: 99a20691ab62595796b26dcc64646c12abbd962c
+  CitrusPay: 81f426a3a1368f81c6bd3f399ba897b0f5b441b4
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+
+PODFILE CHECKSUM: 0314145707ada23ac0554a326474cf0c3d62d610
+
+COCOAPODS: 1.5.3
